@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+
+    <link rel="stylesheet" href="../src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Website Annoucement Banner Section -->
+    <section class="bg-black text-white text-sm">
+      <div
+        class="max-w-7xl mx-auto py-2 flex items-center justify-center relative"
+      >
+        <p class="text-center">
+          Sign up and get 20% off to your first order.
+          <a
+            href="#"
+            class="underline hover:text-gray-300 ml-1 transition-all duration-300 ease-in-out"
+          >
+            Sign Up Now
+          </a>
+        </p>
+
+        <button
+          class="absolute right-0 text-white hover:text-gray-300 transition-all duration-300 ease-in-out"
+        >
+          ✕
+        </button>
+      </div>
+    </section>
+
+    <!-- Navigation Bar Section -->
+    <nav
+      class="max-w-7xl mx-auto flex items-center justify-between py-6 bg-white"
+    >
+      <!-- Logo -->
+      <p class="font-['Integral_CF'] text-4xl font-bold">shop.co</p>
+
+      <!-- Menu -->
+      <div class="flex items-center gap-8">
+        <a
+          href="#"
+          class="flex items-center gap-1 font-['Satoshi'] font-normal hover:text-gray-600 transition-all duration-300 ease-in-out"
+          >Shop
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m19.5 8.25-7.5 7.5-7.5-7.5"
+            />
+          </svg>
+        </a>
+        <a
+          href="#"
+          class="font-['Satoshi'] font-normal hover:text-gray-600 transition-all duration-300 ease-in-out"
+          >On Sale</a
+        >
+        <a
+          href="#"
+          class="font-['Satoshi'] font-normal hover:text-gray-600 transition-all duration-300 ease-in-out"
+          >New Arrivals</a
+        >
+        <a
+          href="#"
+          class="font-['Satoshi'] font-normal hover:text-gray-600 transition-all duration-300 ease-in-out"
+          >Brand</a
+        >
+      </div>
+
+      <!-- Search Bar -->
+      <div class="flex bg-gray-100 p-3 rounded-full items-center w-[570px]">
+        <!-- Search Icon Wrapper -->
+        <div class="">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            />
+          </svg>
+        </div>
+
+        <!-- Search Input -->
+        <input
+          type="text"
+          name="search"
+          id="search"
+          class="ml-[12px] outline-none focus:outline-none focus:ring-0"
+          placeholder="Search for products..."
+        />
+      </div>
+
+      <div class="flex gap-4">
+        <div>
+          <!-- Shopping Cart -->
+          <img src="../src/svg/shoping_cart.svg" alt="shopping cart" />
+        </div>
+        <div>
+          <!-- Account -->
+          <img src="../src/svg/account.svg" alt="account" />
+        </div>
+      </div>
+    </nav>
+
+    <!-- Your Cart Section -->
+    <section class="font-['Satoshi'] mb-25">
+      <div class="max-w-7xl mx-auto py-14">
+        <!-- Breadcrumb -->
+        <p class="text-normal text-gray-500 mb-6">
+          Home &gt; <span style="color: black !important">Cart</span>
+        </p>
+
+        <!-- Title -->
+        <h1 class="text-4xl font-extrabold mb-8 font-['Integral_CF']">
+          YOUR CART
+        </h1>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <!-- LEFT SIDE -->
+          <div class="lg:col-span-2 bg-white rounded-xl border border-gray-200">
+            <!-- ITEM -->
+            <div class="flex justify-between p-6 border-b border-gray-200">
+              <div class="flex gap-5">
+                <img
+                  src="../src/img/cart/shirt1.png"
+                  class="w-20 h-20 object-cover rounded-lg"
+                />
+
+                <div>
+                  <h3 class="font-semibold text-base">
+                    Gradient Graphic T-shirt
+                  </h3>
+                  <p class="text-sm text-gray-500">Size: Large</p>
+                  <p class="text-sm text-gray-500 mb-2">Color: White</p>
+                  <p class="font-semibold">$145</p>
+                </div>
+              </div>
+
+              <div class="flex flex-col items-end justify-between">
+                <img
+                  src="../src//svg/trash.svg"
+                  alt="trash"
+                  width="15px"
+                  height="15px"
+                />
+
+                <div
+                  class="flex items-center bg-gray-100 rounded-full px-4 py-2 gap-6 text-sm hover:bg-gray-200 duration-300 transition ease-in-out"
+                >
+                  <button>
+                    <img
+                      src="../src/svg/minus.svg"
+                      alt="minus"
+                      class="w-[10px]"
+                    />
+                  </button>
+                  <span>1</span>
+                  <button>
+                    <img
+                      src="../src/svg/plus.svg"
+                      alt="plus"
+                      class="w-[10px]"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM -->
+            <div class="flex justify-between p-6 border-b border-gray-200">
+              <div class="flex gap-5">
+                <img
+                  src="../src/img/cart/shirt2.png"
+                  class="w-20 h-20 object-cover rounded-lg"
+                />
+
+                <div>
+                  <h3 class="font-semibold text-base">Checkered Shirt</h3>
+                  <p class="text-sm text-gray-500">Size: Medium</p>
+                  <p class="text-sm text-gray-500 mb-2">Color: Red</p>
+                  <p class="font-semibold">$180</p>
+                </div>
+              </div>
+
+              <div class="flex flex-col items-end justify-between">
+                <img
+                  src="../src//svg/trash.svg"
+                  alt="trash"
+                  width="15px"
+                  height="15px"
+                />
+
+                <div
+                  class="flex items-center bg-gray-100 rounded-full px-4 py-2 gap-6 text-sm hover:bg-gray-200 duration-300 transition ease-in-out"
+                >
+                  <button>
+                    <img
+                      src="../src/svg/minus.svg"
+                      alt="minus"
+                      class="w-[10px]"
+                    />
+                  </button>
+                  <span>1</span>
+                  <button>
+                    <img
+                      src="../src/svg/plus.svg"
+                      alt="plus"
+                      class="w-[10px]"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM -->
+            <div class="flex justify-between p-6">
+              <div class="flex gap-5">
+                <img
+                  src="../src/img/cart/pant1.png"
+                  class="w-20 h-20 object-cover rounded-lg"
+                  `
+                />
+
+                <div>
+                  <h3 class="font-semibold text-base">Skinny Fit Jeans</h3>
+                  <p class="text-sm text-gray-500">Size: Large</p>
+                  <p class="text-sm text-gray-500 mb-2">Color: Blue</p>
+                  <p class="font-semibold">$240</p>
+                </div>
+              </div>
+
+              <div class="flex flex-col items-end justify-between">
+                <img
+                  src="../src//svg/trash.svg"
+                  alt="trash"
+                  width="15px"
+                  height="15px"
+                />
+
+                <div
+                  class="flex items-center bg-gray-100 rounded-full px-4 py-2 gap-6 text-sm hover:bg-gray-200 duration-300 transition ease-in-out"
+                >
+                  <button>
+                    <img
+                      src="../src/svg/minus.svg"
+                      alt="minus"
+                      class="w-[10px]"
+                    />
+                  </button>
+                  <span>1</span>
+                  <button>
+                    <img
+                      src="../src/svg/plus.svg"
+                      alt="plus"
+                      class="w-[10px]"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT SIDE -->
+          <div class="bg-white rounded-xl border border-gray-200 p-6 h-fit">
+            <h2 class="font-semibold text-lg mb-6">Order Summary</h2>
+
+            <div class="space-y-4 text-sm">
+              <div class="flex justify-between">
+                <span class="text-gray-500">Subtotal</span>
+                <span class="font-semibold">$565</span>
+              </div>
+
+              <div class="flex justify-between">
+                <span class="text-gray-500">Discount (-20%)</span>
+                <span class="text-red-500 font-semibold">-$113</span>
+              </div>
+
+              <div class="flex justify-between">
+                <span class="text-gray-500">Delivery Fee</span>
+                <span class="font-semibold">$15</span>
+              </div>
+            </div>
+
+            <div class="border-t border-gray-200 my-6"></div>
+
+            <div class="flex justify-between font-semibold text-lg mb-6">
+              <span>Total</span>
+              <span>$467</span>
+            </div>
+
+            <!-- Promo -->
+            <div class="flex gap-3 mb-6">
+              <div
+                class="flex items-center bg-gray-100 rounded-full px-4 py-2 flex-1 text-sm"
+              >
+                <img
+                  src="../src/svg/tag.svg"
+                  alt="tag"
+                  width="18px"
+                  height="18px"
+                  class="mr-2"
+                />
+                <input
+                  type="text"
+                  placeholder="Add promo code"
+                  class="bg-transparent outline-none w-full"
+                />
+              </div>
+
+              <button
+                class="bg-black text-white px-5 rounded-full text-sm hover:bg-slate-600 transition duration-300 ease-in-out"
+              >
+                Apply
+              </button>
+            </div>
+
+            <!-- Checkout -->
+            <button
+              class="w-full bg-black text-white py-3 rounded-full text-sm font-medium flex justify-center items-center hover:bg-slate-600 transition duration-300 ease-in-out"
+            >
+              Go to Checkout
+              <img
+                src="../src/svg/arrow-down-bold-white.svg"
+                alt="arrow right"
+                class="ml-2"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter + Footer -->
+    <section class="bg-[#F0F0F0] pt-32 relative font-['Satoshi']">
+      <!-- Newsletter Card (Overlapping) -->
+      <div class="max-w-6xl mx-auto px-6 absolute left-0 right-0 -top-20">
+        <div
+          class="bg-black rounded-2xl px-10 py-10 flex flex-col lg:flex-row items-center justify-between gap-8"
+        >
+          <!-- Heading -->
+          <h2
+            class="text-white text-4xl font-extrabold leading-tight font-['Integral_CF']"
+          >
+            STAY UPTO DATE ABOUT <br />
+            OUR LATEST OFFERS
+          </h2>
+
+          <!-- Form -->
+          <div class="flex flex-col gap-4 w-full lg:w-[360px]">
+            <div class="flex flex-col gap-4 w-full lg:w-[360px]">
+              <div class="flex items-center bg-white rounded-full px-5 py-3">
+                <img src="../src/svg/message.svg" alt="message" class="mr-4" />
+                <input
+                  type="email"
+                  placeholder="Enter your email address"
+                  class="outline-none text-sm w-full"
+                />
+              </div>
+
+              <button
+                class="bg-white rounded-full py-3 text-sm font-medium hover:opacity-90 transition duration-300 ease-in-out"
+              >
+                Subscribe to Newsletter
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="max-w-7xl mx-auto pt-[50px] pb-10">
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-10 text-sm">
+          <!-- Brand -->
+          <div>
+            <h3 class="font-['Integral_CF'] text-3xl font-extrabold mb-4">
+              SHOP.CO
+            </h3>
+            <p class="text-gray-500 mb-6 leading-relaxed">
+              We have clothes that suits your style and which you're proud to
+              wear. From women to men.
+            </p>
+
+            <div class="flex gap-3">
+              <div
+                class="w-9 h-9 bg-white border border-slate-300 text-white flex items-center justify-center rounded-full text-sm"
+              >
+                <img src="../src/svg/logo-twitter 2.svg" alt="twitter" />
+              </div>
+              <div
+                class="w-9 h-9 bg-black text-white flex items-center justify-center rounded-full text-sm"
+              >
+                <img src="../src/svg/logo-fb-simple 2.svg" alt="facebook" />
+              </div>
+              <div
+                class="w-9 h-9 bg-white border border-slate-300 text-white flex items-center justify-center rounded-full text-sm"
+              >
+                <img src="../src/svg/logo-instagram 1.svg" alt="instagram" />
+              </div>
+              <div
+                class="w-9 h-9 bg-white border border-slate-300 text-white flex items-center justify-center rounded-full text-sm"
+              >
+                <img src="../src/svg/logo-github 1.svg" alt="github" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Columns -->
+          <div>
+            <h4 class="font-semibold mb-4 tracking-wide">COMPANY</h4>
+            <ul class="space-y-3 text-gray-500">
+              <li>About</li>
+              <li>Features</li>
+              <li>Works</li>
+              <li>Career</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="font-semibold mb-4 tracking-wide">HELP</h4>
+            <ul class="space-y-3 text-gray-500">
+              <li>Customer Support</li>
+              <li>Delivery Details</li>
+              <li>Terms & Conditions</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="font-semibold mb-4 tracking-wide">FAQ</h4>
+            <ul class="space-y-3 text-gray-500">
+              <li>Account</li>
+              <li>Manage Deliveries</li>
+              <li>Orders</li>
+              <li>Payments</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="font-semibold mb-4 tracking-wide">RESOURCES</h4>
+            <ul class="space-y-3 text-gray-500">
+              <li>Free eBooks</li>
+              <li>Development Tutorial</li>
+              <li>How to - Blog</li>
+              <li>Youtube Playlist</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Bottom -->
+        <div
+          class="border-t mt-16 pt-6 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500"
+        >
+          <p>Shop.co © 2000-2023, All Rights Reserved</p>
+
+          <div class="flex gap-2 mt-4 md:mt-0">
+            <div
+              class="px-2 py-1 bg-white rounded text-[10px] flex items-center justify-center"
+            >
+              <img src="../src/svg/Visa.svg" alt="visa" />
+            </div>
+            <div
+              class="px-2 py-1 bg-white rounded text-[10px] flex items-center justify-center"
+            >
+              <img src="../src/svg/Mastercard.svg" alt="master card" />
+            </div>
+            <div
+              class="px-2 py-1 bg-white rounded text-[10px] flex items-center justify-center"
+            >
+              <img src="../src/svg/Paypal.svg" alt="paypal" />
+            </div>
+            <div
+              class="px-2 py-1 bg-white rounded text-[10px] flex items-center justify-center"
+            >
+              <img src="../src/svg/APay.svg" alt="apple pay" />
+            </div>
+            <div
+              class="px-2 py-1 bg-white rounded text-[10px] flex items-center justify-center"
+            >
+              <img src="../src/svg/GPay.svg" alt="google pay" />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>

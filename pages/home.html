@@ -1,0 +1,808 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <link rel="stylesheet" href="../src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Website Annoucement Banner Section -->
+    <section class="bg-black text-white text-sm">
+      <div
+        class="max-w-7xl mx-auto py-2 flex items-center justify-center relative"
+      >
+        <p class="text-center">
+          Sign up and get 20% off to your first order.
+          <a
+            href="#"
+            class="underline hover:text-gray-300 ml-1 transition-all duration-300 ease-in-out"
+          >
+            Sign Up Now
+          </a>
+        </p>
+
+        <button
+          class="absolute right-0 text-white hover:text-gray-300 transition-all duration-300 ease-in-out"
+        >
+          ✕
+        </button>
+      </div>
+    </section>
+
+    <!-- Navigation Bar Section -->
+    <nav
+      class="max-w-7xl mx-auto flex items-center justify-between py-6 bg-white"
+    >
+      <!-- Logo -->
+      <p class="font-['Integral_CF'] text-4xl font-bold">shop.co</p>
+
+      <!-- Menu -->
+      <div class="flex items-center gap-8">
+        <a
+          href="#"
+          class="flex items-center gap-1 font-['Satoshi'] font-normal hover:text-gray-600 transition-all duration-300 ease-in-out"
+          >Shop
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m19.5 8.25-7.5 7.5-7.5-7.5"
+            />
+          </svg>
+        </a>
+        <a
+          href="#"
+          class="font-['Satoshi'] font-normal hover:text-gray-600 transition-all duration-300 ease-in-out"
+          >On Sale</a
+        >
+        <a
+          href="#"
+          class="font-['Satoshi'] font-normal hover:text-gray-600 transition-all duration-300 ease-in-out"
+          >New Arrivals</a
+        >
+        <a
+          href="#"
+          class="font-['Satoshi'] font-normal hover:text-gray-600 transition-all duration-300 ease-in-out"
+          >Brand</a
+        >
+      </div>
+
+      <!-- Search Bar -->
+      <div class="flex bg-gray-100 p-3 rounded-full items-center w-[570px]">
+        <!-- Search Icon Wrapper -->
+        <div class="">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            />
+          </svg>
+        </div>
+
+        <!-- Search Input -->
+        <input
+          type="text"
+          name="search"
+          id="search"
+          class="ml-[12px] outline-none focus:outline-none focus:ring-0"
+          placeholder="Search for products..."
+        />
+      </div>
+
+      <div class="flex gap-4">
+        <div>
+          <!-- Shopping Cart -->
+          <img src="../src/svg/shoping_cart.svg" alt="shopping cart" />
+        </div>
+        <div>
+          <!-- Account -->
+          <img src="../src/svg/account.svg" alt="account" />
+        </div>
+      </div>
+    </nav>
+
+    <!-- Find Clothes That Matches Your Style Section -->
+    <section class="bg-[#f2f0f1] font-['Satoshi']">
+      <div class="max-w-7xl mx-auto h-[660px] flex items-center relative">
+        <!-- Left Content -->
+        <div class="w-1/2 z-10">
+          <h1 class="font-['Integral_CF'] text-6xl font-bold leading-[64px]">
+            FIND CLOTHES THAT MATCHES YOUR STYLE
+          </h1>
+
+          <p class="mt-8 text-gray-600 w-[545px] font-['Satoshi']">
+            Browse through our diverse range of meticulously crafted garments,
+            designed to bring out your individuality and cater to your sense of
+            style.
+          </p>
+
+          <button
+            class="font-['Satoshi'] mt-8 px-16 py-4 bg-black text-white rounded-full hover:bg-gray-800 transition ease-in-out duration-300"
+          >
+            Shop Now
+          </button>
+
+          <!-- Stats -->
+          <div class="max-w-7xl mx-auto mt-12">
+            <div class="flex text-center">
+              <!-- Stat 1 -->
+              <div class="pr-8">
+                <h2 class="text-4xl font-bold">200+</h2>
+                <p class="mt-2 text-gray-600 text-sm">International Brands</p>
+              </div>
+
+              <div class="w-px bg-gray-300"></div>
+
+              <!-- Stat 2 -->
+              <div class="px-8">
+                <h2 class="text-4xl font-bold">2,000+</h2>
+                <p class="mt-2 text-gray-600 text-sm">High-Quality Products</p>
+              </div>
+
+              <div class="w-px bg-gray-300"></div>
+
+              <!-- Stat 3 -->
+              <div class="px-8">
+                <h2 class="text-4xl font-bold">30,000+</h2>
+                <p class="mt-2 text-gray-600 text-sm">Happy Customers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Image -->
+        <div class="absolute right-20 bottom-0 h-full overflow-hidden">
+          <img
+            src="../src/img/home/main_content.jpg"
+            alt="Models"
+            class="h-full w-full object-contain scale-105"
+          />
+        </div>
+
+        <!-- Small Star -->
+        <div class="absolute right-140 top-90 bottom-0 h-full">
+          <img
+            src="../src/img/home/small_star.png"
+            alt="Small Star"
+            class="size-16"
+          />
+        </div>
+
+        <!-- Big Star -->
+        <div class="absolute right-10 top-20 bottom-0 h-full">
+          <img
+            src="../src/img/home/big_star.png"
+            alt="Big Star"
+            class="size-24"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Sponsered by Section -->
+    <section class="bg-black w-full">
+      <div
+        class="max-w-7xl mx-auto h-[120px] flex items-center justify-between"
+      >
+        <img src="../src/img/home/versace.png" alt="versace" class="h-[30px]" />
+        <img src="../src/img/home/zara.png" alt="zara" class="h-[30px]" />
+        <img src="../src/img/home/gucci.png" alt="gucci" class="h-[30px]" />
+        <img src="../src/img/home/prada.png" alt="prada" class="h-[30px]" />
+        <img
+          src="../src/img/home/calvinklein.png"
+          alt="calvinklein"
+          class="h-[30px]"
+        />
+      </div>
+    </section>
+
+    <!-- New Arrivals Section -->
+    <section>
+      <h2
+        class="font-['Integral_CF'] text-center font-bold text-4xl mt-[4.5rem] mb-[3.75rem]"
+      >
+        New Arrivals
+      </h2>
+
+      <!-- Product Containers -->
+      <div class="max-w-7xl mx-auto font-['Satoshi']">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+          <!-- Product -->
+          <div>
+            <div class="bg-[#E9E9E9] rounded-3xl h-[340px] overflow-hidden">
+              <img
+                src="../src/img/home/shirt1.png"
+                class="w-full h-full object-cover"
+              />
+            </div>
+
+            <h3 class="mt-6 font-semibold text-lg">
+              T-shirt with Tape Details
+            </h3>
+
+            <div class="flex items-center gap-2 mt-2">
+              <div class="text-yellow-400 text-sm tracking-wide">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <span class="text-sm text-gray-500">4.5/5</span>
+            </div>
+
+            <p class="mt-3 text-2xl font-bold">$120</p>
+          </div>
+
+          <!-- Product -->
+          <div>
+            <div class="bg-[#E9E9E9] rounded-3xl h-[340px] overflow-hidden">
+              <img
+                src="../src/img/home/pant1.png"
+                class="w-full h-full object-cover"
+              />
+            </div>
+
+            <h3 class="mt-6 font-semibold text-lg">Skinny Fit Jeans</h3>
+
+            <div class="flex items-center gap-2 mt-2">
+              <div class="text-yellow-400 text-sm tracking-wide">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <span class="text-sm text-gray-500">3.5/5</span>
+            </div>
+
+            <div class="flex items-center gap-3 mt-3">
+              <span class="text-2xl font-bold">$240</span>
+              <span class="text-gray-400 line-through text-2xl font-bold"
+                >$260</span
+              >
+              <span
+                class="text-xs bg-red-100 text-red-500 px-3 py-1 rounded-full"
+              >
+                -20%
+              </span>
+            </div>
+          </div>
+
+          <!-- Product -->
+          <div>
+            <div class="bg-[#E9E9E9] rounded-3xl h-[340px] overflow-hidden">
+              <img
+                src="../src/img/home/shirt2.png"
+                class="w-full h-full object-cover"
+              />
+            </div>
+
+            <h3 class="mt-6 font-semibold text-lg">Checkered Shirt</h3>
+
+            <div class="flex items-center gap-2 mt-2">
+              <div class="text-yellow-400 text-sm tracking-wide">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <span class="text-sm text-gray-500">4.5/5</span>
+            </div>
+
+            <p class="mt-3 text-2xl font-bold">$180</p>
+          </div>
+
+          <!-- Product -->
+          <div>
+            <div class="bg-[#E9E9E9] rounded-3xl h-[340px] overflow-hidden">
+              <img
+                src="../src/img/home/shirt3.png"
+                class="w-full h-full object-cover"
+              />
+            </div>
+
+            <h3 class="mt-6 font-semibold text-lg">Sleeve Striped T-shirt</h3>
+
+            <div class="flex items-center gap-2 mt-2">
+              <div class="text-yellow-400 text-sm tracking-wide">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <span class="text-sm text-gray-500">4.5/5</span>
+            </div>
+
+            <div class="flex items-center gap-3 mt-3">
+              <span class="text-2xl font-bold">$130</span>
+              <span class="text-gray-400 line-through text-2xl font-bold"
+                >$160</span
+              >
+              <span
+                class="text-xs bg-red-100 text-red-500 px-3 py-1 rounded-full"
+              >
+                -30%
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Button -->
+        <div class="flex justify-center mt-16">
+          <button
+            class="px-14 py-4 font-bold border border-gray-300 rounded-full text-gray-700 hover:bg-gray-200 transition duration-300"
+          >
+            View All
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top Selling Section -->
+    <section>
+      <h2
+        class="font-['Integral_CF'] text-center font-bold text-4xl mt-[4.5rem] mb-[3.75rem]"
+      >
+        TOP SELLING
+      </h2>
+
+      <!-- Product Containers -->
+      <div class="max-w-7xl mx-auto font-['Satoshi']">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+          <!-- Product 1 -->
+          <div>
+            <div class="bg-[#E9E9E9] rounded-3xl h-[340px] overflow-hidden">
+              <img
+                src="../src/img/home/shirt4.png"
+                class="w-full h-full object-cover"
+              />
+            </div>
+
+            <h3 class="mt-6 font-semibold text-lg">Vertical Striped Shirt</h3>
+
+            <div class="flex items-center gap-2 mt-2">
+              <div class="text-yellow-400 text-sm">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span class="text-sm text-gray-500">5.0/5</span>
+            </div>
+
+            <div class="flex items-center gap-3 mt-3">
+              <span class="text-2xl font-bold">$212</span>
+              <span class="text-gray-400 line-through text-2xl font-bold"
+                >$232</span
+              >
+              <span
+                class="text-xs bg-red-100 text-red-500 px-3 py-1 rounded-full"
+              >
+                -20%
+              </span>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div>
+            <div class="bg-[#E9E9E9] rounded-3xl h-[340px] overflow-hidden">
+              <img
+                src="../src/img/home/shirt5.png"
+                class="w-full h-full object-cover"
+              />
+            </div>
+
+            <h3 class="mt-6 font-semibold text-lg">Courage Graphic T-shirt</h3>
+
+            <div class="flex items-center gap-2 mt-2">
+              <div class="text-yellow-400 text-sm">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span class="text-sm text-gray-500">4.0/5</span>
+            </div>
+
+            <p class="mt-3 text-2xl font-bold">$145</p>
+          </div>
+
+          <!-- Product 3 -->
+          <div>
+            <div class="bg-[#E9E9E9] rounded-3xl h-[340px] overflow-hidden">
+              <img
+                src="../src/img/home/pant2.png"
+                class="w-full h-full object-cover"
+              />
+            </div>
+
+            <h3 class="mt-6 font-semibold text-lg">Loose Fit Bermuda Shorts</h3>
+
+            <div class="flex items-center gap-2 mt-2">
+              <div class="text-yellow-400 text-sm">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span class="text-sm text-gray-500">3.0/5</span>
+            </div>
+
+            <p class="mt-3 text-2xl font-bold">$80</p>
+          </div>
+
+          <!-- Product 4 -->
+          <div>
+            <div class="bg-[#E9E9E9] rounded-3xl h-[340px] overflow-hidden">
+              <img
+                src="../src/img/home/pant3.png"
+                class="w-full h-full object-cover"
+              />
+            </div>
+
+            <h3 class="mt-6 font-semibold text-lg">Faded Skinny Jeans</h3>
+
+            <div class="flex items-center gap-2 mt-2">
+              <div class="text-yellow-400 text-sm">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <span class="text-sm text-gray-500">4.5/5</span>
+            </div>
+
+            <p class="mt-3 text-2xl font-bold">$210</p>
+          </div>
+        </div>
+
+        <!-- Button -->
+        <div class="flex justify-center mt-16">
+          <button
+            class="px-14 py-4 font-bold border border-gray-300 rounded-full text-gray-700 hover:bg-gray-200 transition"
+          >
+            View All
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Browse By Dress Style -->
+    <section
+      class="max-w-7xl mx-auto bg-[#f2f0f1] rounded-[40px] px-12 py-16 mt-[5rem]"
+    >
+      <h2 class="text-center text-4xl font-bold mb-14 font-['Integral_CF']">
+        BROWSE BY DRESS STYLE
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Casual -->
+        <div class="relative rounded-3xl overflow-hidden h-[250px]">
+          <img
+            src="../src/img/home/casual.png"
+            class="w-full h-full object-cover"
+          />
+          <h3
+            class="absolute top-6 left-6 text-2xl font-semibold font-['Satoshi']"
+          >
+            Casual
+          </h3>
+        </div>
+
+        <!-- Formal -->
+        <div class="relative rounded-3xl overflow-hidden h-[250px]">
+          <img
+            src="../src/img/home/formal.png"
+            class="w-full h-full object-cover"
+          />
+          <h3
+            class="absolute top-6 left-6 text-2xl font-semibold font-['Satoshi']"
+          >
+            Formal
+          </h3>
+        </div>
+
+        <!-- Party -->
+        <div
+          class="relative rounded-3xl overflow-hidden h-[250px] md:col-span-1"
+        >
+          <img
+            src="../src/img/home/party.png"
+            class="w-full h-full object-cover"
+          />
+          <h3
+            class="absolute top-6 left-6 text-2xl font-semibold font-['Satoshi']"
+          >
+            Party
+          </h3>
+        </div>
+
+        <!-- Gym -->
+        <div class="relative rounded-3xl overflow-hidden h-[250px]">
+          <img
+            src="../src/img/home/gym.png"
+            class="w-full h-full object-cover"
+          />
+          <h3
+            class="absolute top-6 left-6 text-2xl font-semibold font-['Satoshi']"
+          >
+            Gym
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Happy Customers -->
+    <section class="pt-20 pb-40">
+      <div class="max-w-7xl mx-auto">
+        <!-- Header -->
+        <div class="flex items-center justify-between mb-12">
+          <h2 class="text-5xl font-extrabold font-['Integral_CF']">
+            OUR HAPPY CUSTOMERS
+          </h2>
+
+          <!-- Arrows -->
+          <div class="flex gap-4 text-2xl">
+            <img src="../src/svg/arrow_left.svg" alt="arrow left" />
+            <img src="../src/svg/arrow_right.svg" alt="arrow right" />
+          </div>
+        </div>
+
+        <!-- Testimonials -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 font-['Satoshi']">
+          <!-- Card 1 -->
+          <div class="bg-white border border-gray-200 rounded-3xl p-8">
+            <!-- Stars -->
+            <div class="text-yellow-400 text-lg mb-4">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+            <!-- Name -->
+            <div class="flex items-center gap-2 mb-3">
+              <h3 class="font-semibold text-lg">Sarah M.</h3>
+              <span class="text-green-500 text-sm">
+                <img src="../src/svg/checked.svg" alt="checked" />
+              </span>
+            </div>
+
+            <!-- Review -->
+            <p class="text-gray-600 leading-relaxed">
+              "I'm blown away by the quality and style of the clothes I received
+              from Shop.co. From casual wear to elegant dresses, every piece
+              I've bought has exceeded my expectations."
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-white border border-gray-200 rounded-3xl p-8">
+            <div class="text-yellow-400 text-lg mb-4">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+            <div class="flex items-center gap-2 mb-3">
+              <h3 class="font-semibold text-lg">Alex K.</h3>
+              <span class="text-green-500 text-sm">
+                <img src="../src/svg/checked.svg" alt="checked" />
+              </span>
+            </div>
+
+            <p class="text-gray-600 leading-relaxed">
+              "Finding clothes that align with my personal style used to be a
+              challenge until I discovered Shop.co. The range of options they
+              offer is truly remarkable, catering to a variety of tastes and
+              occasions."
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-white border border-gray-200 rounded-3xl p-8">
+            <div class="text-yellow-400 text-lg mb-4">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+            <div class="flex items-center gap-2 mb-3">
+              <h3 class="font-semibold text-lg">James L.</h3>
+              <span class="text-green-500 text-sm">
+                <img src="../src/svg/checked.svg" alt="checked" />
+              </span>
+            </div>
+
+            <p class="text-gray-600 leading-relaxed">
+              "As someone who's always on the lookout for unique fashion pieces,
+              I'm thrilled to have stumbled upon Shop.co. The selection of
+              clothes is not only diverse but also on-point with the latest
+              trends."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter + Footer -->
+    <section class="bg-[#F0F0F0] pt-32 relative font-['Satoshi']">
+      <!-- Newsletter Card (Overlapping) -->
+      <div class="max-w-6xl mx-auto px-6 absolute left-0 right-0 -top-20">
+        <div
+          class="bg-black rounded-2xl px-10 py-10 flex flex-col lg:flex-row items-center justify-between gap-8"
+        >
+          <!-- Heading -->
+          <h2
+            class="text-white text-4xl font-extrabold leading-tight font-['Integral_CF']"
+          >
+            STAY UPTO DATE ABOUT <br />
+            OUR LATEST OFFERS
+          </h2>
+
+          <!-- Form -->
+          <div class="flex flex-col gap-4 w-full lg:w-[360px]">
+            <div class="flex items-center bg-white rounded-full px-5 py-3">
+              <img src="../src/svg/message.svg" alt="message" class="mr-4" />
+              <input
+                type="email"
+                placeholder="Enter your email address"
+                class="outline-none text-sm w-full"
+              />
+            </div>
+
+            <button
+              class="bg-white rounded-full py-3 text-sm font-medium hover:opacity-90 transition"
+            >
+              Subscribe to Newsletter
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="max-w-7xl mx-auto pt-[50px] pb-10">
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-10 text-sm">
+          <!-- Brand -->
+          <div>
+            <h3 class="font-['Integral_CF'] text-3xl font-extrabold mb-4">
+              SHOP.CO
+            </h3>
+            <p class="text-gray-500 mb-6 leading-relaxed">
+              We have clothes that suits your style and which you're proud to
+              wear. From women to men.
+            </p>
+
+            <div class="flex gap-3">
+              <div
+                class="w-9 h-9 bg-white border border-slate-300 text-white flex items-center justify-center rounded-full text-sm"
+              >
+                <img src="../src/svg/logo-twitter 2.svg" alt="twitter" />
+              </div>
+              <div
+                class="w-9 h-9 bg-black text-white flex items-center justify-center rounded-full text-sm"
+              >
+                <img src="../src/svg/logo-fb-simple 2.svg" alt="facebook" />
+              </div>
+              <div
+                class="w-9 h-9 bg-white border border-slate-300 text-white flex items-center justify-center rounded-full text-sm"
+              >
+                <img src="../src/svg/logo-instagram 1.svg" alt="instagram" />
+              </div>
+              <div
+                class="w-9 h-9 bg-white border border-slate-300 text-white flex items-center justify-center rounded-full text-sm"
+              >
+                <img src="../src/svg/logo-github 1.svg" alt="github" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Columns -->
+          <div>
+            <h4 class="font-semibold mb-4 tracking-wide">COMPANY</h4>
+            <ul class="space-y-3 text-gray-500">
+              <li>About</li>
+              <li>Features</li>
+              <li>Works</li>
+              <li>Career</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="font-semibold mb-4 tracking-wide">HELP</h4>
+            <ul class="space-y-3 text-gray-500">
+              <li>Customer Support</li>
+              <li>Delivery Details</li>
+              <li>Terms & Conditions</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="font-semibold mb-4 tracking-wide">FAQ</h4>
+            <ul class="space-y-3 text-gray-500">
+              <li>Account</li>
+              <li>Manage Deliveries</li>
+              <li>Orders</li>
+              <li>Payments</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="font-semibold mb-4 tracking-wide">RESOURCES</h4>
+            <ul class="space-y-3 text-gray-500">
+              <li>Free eBooks</li>
+              <li>Development Tutorial</li>
+              <li>How to - Blog</li>
+              <li>Youtube Playlist</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Bottom -->
+        <div
+          class="border-t mt-16 pt-6 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500"
+        >
+          <p>Shop.co © 2000-2023, All Rights Reserved</p>
+
+          <div class="flex gap-2 mt-4 md:mt-0">
+            <div
+              class="px-2 py-1 bg-white rounded text-[10px] flex items-center justify-center"
+            >
+              <img src="../src/svg/Visa.svg" alt="visa" />
+            </div>
+            <div
+              class="px-2 py-1 bg-white rounded text-[10px] flex items-center justify-center"
+            >
+              <img src="../src/svg/Mastercard.svg" alt="master card" />
+            </div>
+            <div
+              class="px-2 py-1 bg-white rounded text-[10px] flex items-center justify-center"
+            >
+              <img src="../src/svg/Paypal.svg" alt="paypal" />
+            </div>
+            <div
+              class="px-2 py-1 bg-white rounded text-[10px] flex items-center justify-center"
+            >
+              <img src="../src/svg/APay.svg" alt="apple pay" />
+            </div>
+            <div
+              class="px-2 py-1 bg-white rounded text-[10px] flex items-center justify-center"
+            >
+              <img src="../src/svg/GPay.svg" alt="google pay" />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
